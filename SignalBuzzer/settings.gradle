@@ -1,0 +1,2 @@
+rootProject.name = "SignalBuzzer"
+include ':app'

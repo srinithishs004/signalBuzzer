@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/roomLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room: (not set)"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/statusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set a Room ID to begin"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Device Role:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/roleRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="32dp">
+
+        <RadioButton
+            android:id="@+id/radioSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sender"
+            android:layout_marginRight="16dp" />
+
+        <RadioButton
+            android:id="@+id/radioReceiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receiver" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/serviceToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START SERVICE"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/changeRoomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Room ID"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/sendTestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Test Signal" />
+
+</LinearLayout>

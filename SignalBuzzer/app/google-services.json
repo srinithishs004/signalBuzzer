@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "585646110466",
+    "firebase_url": "https://test-9b004-default-rtdb.firebaseio.com",
+    "project_id": "test-9b004",
+    "storage_bucket": "test-9b004.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585646110466:android:a3aed1013bd8736d28341b",
+        "android_client_info": {
+          "package_name": "com.example.signalbuzzer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjMTDDd7yGiDQHV4wg23w957D8vJkHqF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
